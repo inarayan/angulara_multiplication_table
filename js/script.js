@@ -4,8 +4,8 @@
 angular.module('myApp',[])
 .controller('MultiplicationCtrl', ['$scope', '$attrs', '$element', function($scope, $attrs, $element) {
     $scope.upper_limit = 10;
+    //Watching the users input to determine the upper limit value
     $scope.$watch('upper_limit', function(newVal, oldVal) {
-        console.log(oldVal, newVal);
         $scope.numbers = function () {
         var firstArray = [];
         for (var i = 1; i <= newVal; i++) {
