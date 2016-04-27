@@ -1,0 +1,9 @@
+td{
+    border-style: solid;
+    border-spacing: 1px;
+    margin:2em;
+    width:4em;
+    height: 4em;
+    text-align: center;
+    border-radius: 2em;
+}
